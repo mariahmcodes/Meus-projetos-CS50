@@ -1,0 +1,12 @@
+# Databases
+*.db
+
+# Large input / output files
+*.txt
+
+# Logs
+*.log
+
+# Python cache
+__pycache__/
+*.pyc
