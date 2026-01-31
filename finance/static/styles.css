@@ -1,0 +1,59 @@
+/* Size for brand */
+nav .navbar-brand
+{
+    font-size: xx-large;
+}
+
+/* Colors for brand */
+nav .navbar-brand .blue
+{
+    color: #537fbe;
+}
+nav .navbar-brand .red
+{
+    color: #ea433b;
+}
+nav .navbar-brand .yellow
+{
+    color: #f5b82e;
+}
+nav .navbar-brand .green
+{
+    color: #2e944b;
+}
+/* Botões principais */
+button.btn-action {
+    background-color: #0d6efd; /* azul padrão bootstrap */
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+button.btn-action:hover {
+    background-color: #0b5ed7;
+}
+
+/* Botão Sell específico */
+button.btn-sell {
+    background-color: #dc3545; /* vermelho */
+    color: white;
+    border: none;
+}
+
+button.btn-sell:hover {
+    background-color: #bb2d3b;
+}
+
+/* Botão Quote ou Add Cash, se quiser diferenciar */
+button.btn-quote {
+    background-color: #198754; /* verde */
+    color: white;
+    border: none;
+}
+
+button.btn-quote:hover {
+    background-color: #157347;
+}

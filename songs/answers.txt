@@ -1,0 +1,19 @@
+Question 1: How would you characterize their audio aura?
+
+Based on the top 100 songs, the user’s audio aura can be described as follows:
++-------------+--------------+-------------------+
+| AVG(energy) | AVG(valence) | AVG(danceability) |
++-------------+--------------+-------------------+
+| 0.65906     | 0.484443     | 0.71646           |
++-------------+--------------+-------------------+
+
+which suggests a mix of both happy(energy/danceability) and introspective(valence) moods.
+Overall, their music preferences show a lively, rhythmic style, but not exclusively cheerful.
+
+Question 2: Why might this calculation not be very representative, and how could it be improved?
+
+The current calculation uses a simple average of the top 100 songs’ attributes,
+which means all songs are weighted equally, regardless of how often each song was actually listened to.
+This may not accurately reflect the user’s true listening habits, as favorite songs might have more impact than rarely played ones.
+A better approach would be to weight each song by its play count when calculating the averages of energy, valence, and danceability,
+producing a more representative audio aura.

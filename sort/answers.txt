@@ -1,0 +1,14 @@
+sort1 uses: bubble sort
+How do you know?:
+- repeatedly swaps adjacent elements if they are in the wrong order until the list is sorted
+- The sort is significantly faster when the input is already sorted (O(n)), but very slow for random/reversed data (O(n^2)).
+
+sort2 uses: merge sort
+How do you know?:
+- recursively divides the list into halves, sorts each half, and merges them back together
+- This sort is the fastest of the three, with a consistent O(n log n) runtime, regardless of whether the input is sorted, reversed, or random.
+
+sort3 uses: selection sort
+How do you know?:
+- repeatedly selects the smallest element from the unsorted portion and moves it to its correct position
+- The sort has the slowest and most consistent runtime (O(n^2)), as it performs the same number of comparisons whether the input is sorted or not.
